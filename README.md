@@ -36,6 +36,14 @@ Below the other vhost configuration in the file (about 90% of the way down) add 
 Include /tmbr/team-configs/vhosts.conf
 ```
 
+## Sequel Pro Config
+
+Should look something like this
+
+![Mamp Configuration](/screenshots/sqlpro-mamp.jpeg?raw=true)
+
+You may need a password on your configuration -- YMMV
+
 ## Cleanup of old systems
 
 ### Homebrew MySQL
