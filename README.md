@@ -31,7 +31,7 @@ mv ~/mysql-data mysql
 
 ## MAMP
 
-** Apache Configuration **
+### Apache Configuration
 
 1. Go to File::Edit Template::Apache::httpd.conf
 2. Below the other vhost configuration in the file (about 90% of the way down) add the following line:
@@ -40,32 +40,32 @@ mv ~/mysql-data mysql
 Include /tmbr/team-configs/vhosts.conf
 ```
 
-** General **
+### General
 
 1. Set ports to 80, 443, and 3306 (click the button)
 
-** Hosts **
+### Hosts
 
-1. ![General](/screenshots/mamp/hosts-1.jpg?raw=true)
-1. ![Extended](/screenshots/mamp/hosts-2.jpg?raw=true)
+![General](/screenshots/mamp/hosts-1.jpg?raw=true)
+![Extended](/screenshots/mamp/hosts-2.jpg?raw=true)
 
-** Modules **
-
-No Change
-
-** PHP **
-
-1. ![PHP Settings](/screenshots/mamp/php.jpg?raw=true)
-
-** MySQL **
-
-1. ![Screenshot](/screenshots/mamp/mysql.jpg?raw=true)
-
-** Dynamic DNS **
+### Modules
 
 No Change
 
-** Postfix **
+### PHP
+
+![PHP Settings](/screenshots/mamp/php.jpg?raw=true)
+
+### MySQL
+
+![Screenshot](/screenshots/mamp/mysql.jpg?raw=true)
+
+### Dynamic DNS
+
+No Change
+
+### Postfix
 
 No Change
 
