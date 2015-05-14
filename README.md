@@ -51,3 +51,11 @@ You may need a password on your configuration -- YMMV
 ```
 brew uninstall --force mysql
 ```
+
+### Vagrant Box
+
+TBD - once we have a good feeling that it's working.  It'll be something like:
+
+```
+vagrant destroy
+```
