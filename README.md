@@ -18,7 +18,7 @@ After it's downloaded, complete the installation, and open MAMP PRO
 
 ## MySQL
 
-- shut down mysql server
+- shut down mysql server (and vagrant box if it's running)
 - Then the following:
 
 ```
