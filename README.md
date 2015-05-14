@@ -20,7 +20,7 @@ After it's downloaded, complete the installation, and open MAMP PRO
 
 ## MySQL
 
-- shut down mysql server (and vagrant box if it's running)
+- shut down any and all mysql servers (and vagrant box if it's running)
 - Then the following:
 
 ```
@@ -29,18 +29,19 @@ mv mysql mysql.orig
 mv ~/mysql-data mysql
 ```
 
-## Apache
+## MAMP
 
-In MAMP go to File::Edit Template::Apache::httpd.conf
+** Apache Configuration **
 
-Below the other vhost configuration in the file (about 90% of the way down) add the following line:
+1. Go to File::Edit Template::Apache::httpd.conf
+2. Below the other vhost configuration in the file (about 90% of the way down) add the following line:
+
 ```
 Include /tmbr/team-configs/vhosts.conf
 ```
 
-## MAMP
-
 ** General **
+
 1. Set ports to 80, 443, and 3306 (click the button)
 
 ** Hosts **
