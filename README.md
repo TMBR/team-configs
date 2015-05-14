@@ -1,5 +1,7 @@
 # TMBR Configuration Files
 
+This is a setup doc for local environments with the best way that we know how to utilize dynamic vhosts.
+
 ## System
 
 Download [MAMP PRO](https://www.mamp.info/en/downloads/)
@@ -36,11 +38,41 @@ Below the other vhost configuration in the file (about 90% of the way down) add 
 Include /tmbr/team-configs/vhosts.conf
 ```
 
+## MAMP
+
+** General **
+1. Set ports to 80, 443, and 3306 (click the button)
+
+** Hosts **
+
+1. ![General](/screenshots/mamp/hosts-1.jpg?raw=true)
+1. ![Extended](/screenshots/mamp/hosts-2.jpg?raw=true)
+
+** Modules **
+
+No Change
+
+** PHP **
+
+1. ![PHP Settings](/screenshots/mamp/php.jpg?raw=true)
+
+** MySQL **
+
+1. ![Screenshot](/screenshots/mamp/mysql.jpg?raw=true)
+
+** Dynamic DNS **
+
+No Change
+
+** Postfix **
+
+No Change
+
 ## Sequel Pro Config
 
 Should look something like this
 
-![Mamp Configuration](/screenshots/sqlpro-mamp.jpeg?raw=true)
+![Mamp Configuration](/screenshots/sequelpro/connection.jpg?raw=true)
 
 You may need a password on your configuration -- YMMV
 
