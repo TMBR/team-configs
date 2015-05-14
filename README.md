@@ -2,6 +2,10 @@
 
 ## System
 
+Download [MAMP PRO](https://www.mamp.info/en/downloads/)
+
+While it's downloading, do the following:
+
 ```
 mkdir ~/tmbr/
 sudo ln -s ~/tmbr/ /tmbr/
@@ -10,6 +14,7 @@ git clone git@github.com:TMBR/team-configs.git team-configs
 ln -s ~/web ~/tmbr/web
 ```
 
+After it's downloaded, complete the installation, and open MAMP PRO
 
 ## MySQL
 
