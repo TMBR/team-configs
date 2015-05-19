@@ -67,7 +67,7 @@ No Change
 
 ### MySQL
 
-![Screenshot](/screenshots/mamp/mysql.jpg?raw=true)
+No Change
 
 ### Dynamic DNS
 
