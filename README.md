@@ -29,6 +29,14 @@ mv mysql mysql.orig
 mv ~/mysql-data mysql
 ```
 
+## Cleanup of old systems
+
+### Homebrew MySQL
+
+```
+brew uninstall --force mysql
+```
+
 ## MAMP PRO
 
 ### Apache Configuration
@@ -76,14 +84,6 @@ Should look something like this
 ![Mamp Configuration](/screenshots/sequelpro/connection.jpg?raw=true)
 
 You may need a password on your configuration -- YMMV
-
-## Cleanup of old systems
-
-### Homebrew MySQL
-
-```
-brew uninstall --force mysql
-```
 
 ### Vagrant Box
 
