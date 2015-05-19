@@ -24,7 +24,7 @@ After it's downloaded, complete the installation, and open MAMP PRO
 - Then the following:
 
 ```
-cd /Library/Application Support/appsolute/MAMP PRO/db/
+cd /Library/Application\ Support/appsolute/MAMP\ PRO/db/
 mv mysql mysql.orig
 mv ~/mysql-data mysql
 ```
