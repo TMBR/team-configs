@@ -20,21 +20,21 @@ After it's downloaded, complete the installation, and open MAMP PRO
 
 ## MySQL
 
-- shut down any and all mysql servers (and vagrant box if it's running)
-- Then the following:
+### Shut down existing MySQL servers
+
+- Shut down any and all mysql servers (and vagrant box if it's running)
+
+```
+brew uninstall --force mysql
+```
+
+- Open Activity Monitor (under Utilities) and look for any process that has `mysql` and kill their processes.
+- Then Migrate our Databases to where MAMP wants them:
 
 ```
 cd /Library/Application\ Support/appsolute/MAMP\ PRO/db/
 mv mysql mysql.orig
 mv ~/mysql-data mysql
-```
-
-## Cleanup of old systems
-
-### Homebrew MySQL
-
-```
-brew uninstall --force mysql
 ```
 
 ## MAMP PRO
@@ -84,6 +84,20 @@ Should look something like this
 ![Mamp Configuration](/screenshots/sequelpro/connection.jpg?raw=true)
 
 You may need a password on your configuration -- YMMV
+
+## Change Hosts File
+
+Replace all occurances of `192.168.111.222` with `127.0.0.1`
+
+Here are commands to do it in nano
+
+```
+sudo nano /etc/hosts
+ctrl + \ (press ctrl and backslash)
+192.168.111.222 (type search term of vagrant box IP)
+127.0.0.1 (type localhost IP address)
+A (press the key "A")
+```
 
 ### Vagrant Box
 
