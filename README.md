@@ -29,7 +29,7 @@ mv mysql mysql.orig
 mv ~/mysql-data mysql
 ```
 
-## MAMP
+## MAMP PRO
 
 ### Apache Configuration
 
