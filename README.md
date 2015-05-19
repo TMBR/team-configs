@@ -10,7 +10,7 @@ While it's downloading, do the following:
 
 ```
 mkdir ~/tmbr/
-sudo ln -s ~/tmbr/ /tmbr/
+sudo ln -s ~/tmbr/ /tmbr
 cd ~/tmbr/
 git clone git@github.com:TMBR/team-configs.git team-configs
 ln -s ~/web ~/tmbr/web
